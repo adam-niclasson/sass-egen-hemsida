@@ -1,0 +1,10 @@
+@import "./varible";
+
+@mixin color($color) {
+  background-color: $color;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+}
